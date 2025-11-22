@@ -6,7 +6,7 @@ First and foremost, thank you for considering contributing to the AV Classes web
 
 ## 📋 Table of Contents
 
-- [Quick Links](#quick-links)
+- [Quick Links](#https://avclasses.online/)
 - [Getting Started](#getting-started)
 - [Ways to Contribute](#ways-to-contribute)
 - [Development Guide](#development-guide)
