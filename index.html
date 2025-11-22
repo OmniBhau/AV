@@ -50,12 +50,13 @@
     <link rel="icon" type="image/png" sizes="512x512" href="https://ik.imagekit.io/dy4ku1v0z/Favicon%20/Picsart_25-11-20_09-01-16-761.jpg">
     
     <!-- PWA Meta Tags -->
-    <meta name="theme-color" content="#e60000">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="AV Classes Coaching">
-    <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3144/3144456.png">
+<!-- PWA Meta Tags -->
+<meta name="theme-color" content="#667eea">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="AV Classes">
+<link rel="apple-touch-icon" href="https://ik.imagekit.io/dy4ku1v0z/Favicon%20/Picsart_25-11-20_09-01-16-761.jpg">
+<link rel="manifest" href="manifest.json">
     
     <!-- Performance & Compatibility -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -2481,7 +2482,28 @@ header {
     0 3rem 3rem rgba(0, 0, 0, 0.3),
     0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
 }
+/* PWA Install Button */
+#installBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  z-index: 1000;
+  display: none; /* Start hidden */
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
 
+#installBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
 
     </style>
     </head>
@@ -6908,6 +6930,50 @@ if ('serviceWorker' in navigator) {
       });
   });
 }
+        </script>
+        <script>
+// PWA Installation
+let deferredPrompt;
+const installBtn = document.getElementById('installBtn');
+
+// Show install button when PWA is ready
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  console.log('📱 PWA Install Available');
+  
+  if (installBtn) {
+    installBtn.style.display = 'block';
+    installBtn.onclick = async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log('User installed PWA:', outcome);
+        deferredPrompt = null;
+        installBtn.style.display = 'none';
+      }
+    };
+  }
+});
+
+// Register Service Worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js')
+      .then((registration) => {
+        console.log('✅ Service Worker Registered:', registration);
+      })
+      .catch((error) => {
+        console.log('❌ Service Worker Failed:', error);
+      });
+  });
+}
+
+// Track successful installation
+window.addEventListener('appinstalled', () => {
+  console.log('🎉 PWA Installed Successfully');
+  if (installBtn) installBtn.style.display = 'none';
+});
         </script>
 </body>
 </html>
