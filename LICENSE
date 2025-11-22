@@ -1,0 +1,138 @@
+MIT License
+
+Copyright (c) 2024 AV Classes Coaching Center
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## 🔍 License Interpretation
+
+### ✅ What You CAN Do (Permissions)
+
+1. **Commercial Use**
+   - Use the software in commercial applications
+   - Charge money for services that use this software
+   - Include in proprietary software
+
+2. **Modification**
+   - Modify the source code
+   - Create derivative works
+   - Adapt for your specific needs
+   - Change functionality as required
+
+3. **Distribution**
+   - Distribute original or modified versions
+   - Share with others
+   - Include in other projects
+   - Publish modified versions
+
+4. **Private Use**
+   - Use privately without sharing modifications
+   - Deploy in internal systems
+   - Use for personal projects
+
+5. **Sublicensing**
+   - Include in projects with different licenses
+   - Combine with other software
+   - Re-license under different terms (with conditions)
+
+### 📝 Conditions
+
+1. **Copyright Notice**
+   - Must include original copyright notice in all copies
+   - Must include this license text
+   - Must attribute AV Classes Coaching Center
+
+2. **License Inclusion**
+   - Include full license text with distributions
+   - Maintain license in source code distributions
+   - Reference license in documentation
+
+### ⚠️ Limitations
+
+1. **No Warranty**
+   - Software provided "as is"
+   - No guarantee of functionality
+   - No technical support obligation
+   - Use at your own risk
+
+2. **No Liability**
+   - Authors not liable for damages
+   - No responsibility for data loss
+   - No liability for security breaches
+   - Use consequences are user's responsibility
+
+## 🎯 Scope of License
+
+### Covered Components
+- ✅ HTML, CSS, JavaScript source code
+- ✅ Documentation files
+- ✅ Configuration files
+- ✅ Asset files (images, fonts)
+- ✅ Build scripts
+- ✅ Documentation
+
+### Excluded Components
+- ❌ Third-party libraries (may have their own licenses)
+- ❌ Brand trademarks and logos
+- ❌ Proprietary content
+- ❌ Student data and information
+
+## 🌐 Compatibility
+
+### Compatible Licenses
+The MIT License is compatible with:
+- GNU GPL (all versions)
+- Apache License 2.0
+- BSD licenses
+- Proprietary licenses
+- Other MIT licensed projects
+
+### Incompatible Licenses
+- No known major incompatibilities
+- Check specific license requirements for combined works
+
+## 📊 License Comparison
+
+| Feature | MIT License | GPL | Apache | BSD |
+|---------|-------------|-----|---------|-----|
+| Commercial Use | ✅ Allowed | ✅ Allowed | ✅ Allowed | ✅ Allowed |
+| Modification | ✅ Allowed | ✅ Allowed | ✅ Allowed | ✅ Allowed |
+| Distribution | ✅ Allowed | ✅ Allowed | ✅ Allowed | ✅ Allowed |
+| Patent Grant | ❌ No | ❌ No | ✅ Yes | ❌ No |
+| Copyleft | ❌ No | ✅ Yes | ❌ No | ❌ No |
+| Sublicensing | ✅ Allowed | ❌ Restricted | ✅ Allowed | ✅ Allowed |
+
+## 🔄 How to Apply This License
+
+### For Users
+1. Include copyright notice in your project
+2. Keep LICENSE file in distribution
+3. Attribute AV Classes in documentation
+
+### Example Attribution
+```html
+<!-- In your HTML file -->
+<!-- 
+  This project uses code from AV Classes Website
+  Copyright (c) 2024 AV Classes Coaching Center
+  Licensed under MIT License
+-->
+This software includes components from AV Classes Website
+Copyright (c) 2024 AV Classes Coaching Center
+Used under MIT License
