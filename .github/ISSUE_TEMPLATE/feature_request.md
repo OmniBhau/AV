@@ -1,48 +1,20 @@
 ---
-name: "📚 Documentation Issue"
-about: "Report issues or suggest improvements for documentation"
-title: "[DOCS] "
-labels: ["documentation", "help wanted"]
-assignees: ""
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
-## 📖 Documentation Issue
-**Page/Section:** <!-- Which page or section has the issue? -->
-**URL:** <!-- If applicable, provide the URL -->
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-## 📝 Issue Type
-- [ ] Typo or grammatical error
-- [ ] Outdated information
-- [ ] Missing information
-- [ ] Incorrect information
-- [ ] Broken links
-- [ ] Poor formatting
-- [ ] Translation needed
-- [ ] Other
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
-## 🔍 Current Content
-<!-- Copy the current problematic content -->
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-## 💡 Suggested Improvement
-<!-- Describe what should be changed or added -->
-
-## 📋 Impact
-**Affected Users:**
-- [ ] Students
-- [ ] Parents
-- [ ] Developers
-- [ ] All Users
-
-**Severity:**
-- [ ] Critical (Misleading, security risk)
-- [ ] High (Causes confusion, blocks usage)
-- [ ] Medium (Minor confusion)
-- [ ] Low (Cosmetic)
-
-## 🔗 Related Documentation
-<!-- Links to related documentation sections -->
-
-## 📋 Checklist
-- [ ] I have verified this is an actual issue
-- [ ] I have searched existing documentation issues
-- [ ] I have provided specific location details
+**Additional context**
+Add any other context or screenshots about the feature request here.
