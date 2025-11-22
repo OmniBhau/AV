@@ -1,1 +1,38 @@
-
+{
+  "name": "AV Classes Coaching Center",
+  "short_name": "AV Classes",
+  "description": "Quality Education for Classes 6-12 in Deoria - Your Dream Our Mission",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "https://ik.imagekit.io/dy4ku1v0z/Favicon%20/Picsart_25-11-20_09-01-16-761.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://ik.imagekit.io/dy4ku1v0z/Favicon%20/Picsart_25-11-20_09-01-16-761.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3144/3144456.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://i.postimg.cc/0j9TqyDQ/IMG-20251027-WA0000.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ]
+}
